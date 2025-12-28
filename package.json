@@ -1,0 +1,38 @@
+{
+  "name": "whatsapp-bot-50fitur",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot dengan 50 Fitur Lengkap",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "whatsapp-bot",
+    "baileys"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.4.0",
+    "qrcode-terminal": "^0.12.0",
+    "axios": "^1.6.0",
+    "moment": "^2.29.4",
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "jimp": "^0.22.10",
+    "node-cache": "^5.1.2",
+    "pdfkit": "^0.14.0",
+    "qrcode": "^1.5.3",
+    "sharp": "^0.33.0",
+    "ytdl-core": "^4.11.5",
+    "yt-search": "^2.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
